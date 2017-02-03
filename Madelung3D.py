@@ -7,7 +7,7 @@ def main():
 def dist( x,y,z ): #Calculates the distance of (x,y,z) from (0,0,0)
     return math.sqrt((x*x)+(y*y)+(z*z))
 
-def ML(n): #Calculates the madelung constant for a square lattice of side 2*n
+def ML(n): #Calculates the madelung constant for a FCC lattice of side 2*n
     mdlung = 0
     for i in range(-n,n): #Loops through x values
         for j in range(-n,n): #Loops through y values
